@@ -1,0 +1,84 @@
+body{
+  background-color: hsl(185, 41%, 84%);
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+}
+input{
+  border: none;
+}
+table{
+  width: 232px;
+  margin: 40px 5px;
+}
+p{
+  margin: 0;
+}
+.logo{
+  margin: 6% 0% 3%;
+}
+.main{
+  margin: 5% 28.5% 0 ;
+  padding: 1% 2%;
+  border-radius: 1rem;
+  text-align: left;
+  background-color: hsl(189, 41%, 97%);
+}
+.cell{
+  width: 75px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.given{
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+}
+.given:hover{
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+}
+.display{
+  border-radius: 1rem;
+  background-color: hsl(183, 100%, 15%);
+}
+.result{
+  text-align: right;
+  font-size: 30px;
+  font-weight: 700;
+  color: hsl(172, 67%, 45%);
+}
+.reset{
+  background-color: hsl(183, 100%, 20%);
+}
+.reset:hover{
+  background-color: hsl(185, 41%, 84%);
+}
+.inpt{
+  border-color: hsl(189, 41%, 97%);
+  background-color: hsl(189, 41%, 97%);
+}
+.inpt:hover{
+  border-color: hsl(183, 100%, 15%);
+}
+.big{
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.small{
+  font-size: 10px;
+  color: #DFDFDF;
+}
+#cus{
+  width: 75px;
+  height:20px;
+  border-color: hsl(189, 41%, 97%);
+  background-color: hsl(189, 41%, 97%);
+}
+#cus:hover{
+  border-color: hsl(183, 100%, 15%);
+}
+/* only comes after given is pressed */
+.press{
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
